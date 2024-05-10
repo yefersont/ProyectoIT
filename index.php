@@ -1,4 +1,5 @@
-<?php require_once('header.php'); ?>
+
+<?php  require_once('header.php'); ?>
 
 <body>
 
@@ -6,7 +7,7 @@
     <!-- Contenido de la página principal -->
     <h2>Propietarios</h2>
     <div class="search-container">  
-        <button id="search-button">Nuevo propietario +</button>          
+        <a href="crearpropietario.php" id="search-button">Nuevo propietario +</a>          
         <input type="text" id="search-input" placeholder="Buscar...">
         <button id="search-button">Buscar</button>
     </div>
@@ -25,19 +26,22 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+
+
+
+            <tr>
                     <td>1006319573</td>
                     <td>Yeferson</td>
                     <td>Tello Arias</td>                    
                     <td>3126059025</td>
                     <td>ZQE49E</td>
                     <td>Estudiante</td>
-                    <td> <button type="button" class="btn btn-warning">Actualizar</button> | <button type="button" class="btn btn-danger">Eliminar</button>  </td>
+                    <td> <button type="button" class="btn btn-warning">Actualizar</button> | <button type="button" class="btn btn-danger">Eliminar</button>  </td> 
                 </tr>
             </tbody>
         </table>
     </div>
-    <!-- Contenido adicional (formularios, historiales, etc.) se puede agregar aquí -->
+
 </section>
 
 
